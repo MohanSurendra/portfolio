@@ -1072,6 +1072,20 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+/*mobile styles */
+@media screen and (max-width: 767px) {
+    .swiper-slide {
+        padding-bottom: 2rem;
+    }
+
+    .portfolio__img {
+        margin-bottom: 1rem;
+    }
+
+    .portfolio__data {
+        padding-bottom: 1rem;
+    }
+}
 
 /* Animations */
 @keyframes fadeInUp {
