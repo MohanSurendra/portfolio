@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /*==================== PORTFOLIO SWIPER ====================*/
 let swiper = new Swiper(".portfolio__container", {
     cssMode: true,
+    spaceBetween: 30,
     loop: false, // Disable loop to avoid duplicating the single slide
     navigation: {
         nextEl: ".swiper-button-next",
