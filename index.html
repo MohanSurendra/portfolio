@@ -123,7 +123,7 @@
                     </p>
 
                     <div class="about__buttons" style="margin-top: 20px; display: flex; justify-content: center;">
-                        <a download="" href="/assets/resume/Surendra_Resume.pdf" class="button button--flex">
+                        <a download="" href="/assets/resume/Surendra-Resume.pdf" class="button button--flex">
                             Download Resume <i class="fas fa-download button__icon"></i>
                         </a>
                     </div>
@@ -209,7 +209,34 @@
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
-                    <!-- Project 1: Email Scanning System -->
+
+                    <!-- Project 1: Portfolio Website -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/images/Portfolio.png" alt="Portfolio Website" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Portfolio Website</h3>
+                            <p class="portfolio__description">
+                                A modern and responsive personal portfolio built using HTML, CSS, and JavaScript. 
+                                Showcases skills, projects, contact form, and interactive animations with a clean UI/UX design.
+                            </p>
+                            <div class="portfolio__tech">
+                                <span class="portfolio__tech-item">HTML</span>
+                                <span class="portfolio__tech-item">CSS</span>
+                                <span class="portfolio__tech-item">JavaScript</span>
+                            </div>
+                            <div class="portfolio__buttons">
+                                <a href="https://portfolio-wjar.onrender.com/" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Live Demo <i class="fas fa-external-link-alt button__icon"></i>
+                                </a>
+                                <a href="https://github.com/MohanSurendra/portfolio" class="button button--flex button--small portfolio__button" target="_blank">
+                                    Code <i class="fab fa-github button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Email Scanning System -->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="/assets/images/email_scanning_system.png" alt="Email Scanning System" class="portfolio__img">
 
@@ -236,31 +263,32 @@
                         </div>
                     </div>
 
-                    <!-- Project 2: Portfolio Website -->
+                    <!-- Project 3: Driver Onboarding Portal -->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="/assets/images/Portfolio.png" alt="Portfolio Website" class="portfolio__img">
+                        <img src="/assets/images/driver-onboarding" alt="Driver Onboarding Portal" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Portfolio Website</h3>
+                            <h3 class="portfolio__title">Driver Onboarding Portal</h3>
                             <p class="portfolio__description">
-                                A modern and responsive personal portfolio built using HTML, CSS, and JavaScript. 
-                                Showcases skills, projects, contact form, and interactive animations with a clean UI/UX design.
+                                A full-stack MERN application designed to streamline driver onboarding. Includes secure authentication, 
+                                multi-step data collection, document uploads, and an admin dashboard for reviewing and managing applications.
                             </p>
                             <div class="portfolio__tech">
-                                <span class="portfolio__tech-item">HTML</span>
-                                <span class="portfolio__tech-item">CSS</span>
-                                <span class="portfolio__tech-item">JavaScript</span>
+                                <span class="portfolio__tech-item">MongoDB</span>
+                                <span class="portfolio__tech-item">Express.js</span>
+                                <span class="portfolio__tech-item">React</span>
+                                <span class="portfolio__tech-item">Node.js</span>
+                                <span class="portfolio__tech-item">JWT</span>
+                                <span class="portfolio__tech-item">Tailwind CSS</span>
                             </div>
                             <div class="portfolio__buttons">
-                                <a href="https://portfolio-wjar.onrender.com/" class="button button--flex button--small portfolio__button" target="_blank">
-                                    Live Demo <i class="fas fa-external-link-alt button__icon"></i>
-                                </a>
-                                <a href="https://github.com/MohanSurendra/portfolio" class="button button--flex button--small portfolio__button" target="_blank">
+                                <a href="https://github.com/MohanSurendra/driver-onboarding" class="button button--flex button--small portfolio__button" target="_blank">
                                     Code <i class="fab fa-github button__icon"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -494,6 +522,6 @@
     <!-- EmailJS -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <!-- Main JS -->
-    <script src="script.js"></script>
+    <script src="public/script.js"></script>
 </body>
 </html>
